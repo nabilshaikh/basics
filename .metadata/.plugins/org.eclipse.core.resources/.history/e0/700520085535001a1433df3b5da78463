@@ -1,0 +1,57 @@
+package w3resource.array;
+
+import java.util.Scanner;
+
+public class ContainsSpecificValue1 {
+	
+	// 1st Method
+	public static boolean contains1(int[] array, int input){
+		
+		for (int i: array){
+			if (i == input){
+				return true;
+			}
+		}		
+		return false;			
+	}
+	
+	
+	// 2nd Method
+	public static void contains2(int[] array, int input){
+		String j = "" ;
+		int space = 0;
+		for (int i: array){
+			if(i==input){
+				String conv = Integer.toString(i);
+				j=conv;
+				space = i; // without using string
+			}	
+		}
+		
+		String inpconv = Integer.toString(input);
+		if (j.equals(inpconv))
+			System.out.println("Value is present");
+		else
+		//if (j.isEmpty())
+			System.out.println("not present");
+		
+		// without using string
+		if (space == input)
+			System.out.println("present");
+		if (space != input)
+			System.out.println("not present");
+	}
+	
+	public static void main(String[] args) {
+		
+		int[] array = {1,2,3,4,5,6,7,8};
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter number: ");
+		int input = sc.nextInt();
+		System.out.println(contains1(array, input));
+		contains2(array, input);
+		sc.close();
+	}
+
+}

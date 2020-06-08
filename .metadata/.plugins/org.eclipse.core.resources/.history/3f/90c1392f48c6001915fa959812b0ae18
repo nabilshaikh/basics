@@ -1,0 +1,28 @@
+
+public class withoutmain {
+
+	public void summ() {
+
+		int add;
+		int a = 10;
+		int b = 10;
+		
+		System.out.println(add=a+b);
+	}
+	
+	public void substract() {
+		
+		int sub;
+		int c = 10;
+		int d = 5;
+		
+		System.out.println(sub=c-d);
+	}
+	public static void main(String args[]){
+		
+		
+		
+	
+	
+	}
+}	

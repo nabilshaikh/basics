@@ -1,0 +1,17 @@
+
+public class withoutmain {
+	
+	public static void main(String args[]){
+		
+	public void sum() {
+		
+		int sum;
+		int a = 10;
+		int b = 10;
+		
+		
+	}
+	
+	
+	}
+}	

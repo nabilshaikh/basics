@@ -1,0 +1,38 @@
+package downcasting;
+
+public class DowncaseDemo {
+	public static void main(String[] args) {
+		A a = new A();
+		//a.a();
+		B b = new B();
+		//b.a();
+		//b.b();
+		System.out.println("---");
+		//Upcast
+		A upcast = new B();
+		upcast.a();
+		B dwn = new A();
+		
+		
+		
+	}
+}	
+	
+class A{
+	public void a() {
+		System.out.println("A");	
+}
+}	
+
+class B extends A{
+	
+	public void a() {
+		System.out.println("Inherited A");
+	}
+	
+	public void b() {
+		System.out.println("B");
+	}
+	
+}
+

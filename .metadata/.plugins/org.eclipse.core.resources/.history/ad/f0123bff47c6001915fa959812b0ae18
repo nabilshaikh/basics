@@ -1,0 +1,19 @@
+
+public class withoutmain {
+	
+public void summ() {
+		
+		int add;
+		int a = 10;
+		int b = 10;
+		System.out.println(add=a+b);
+		
+	}
+	
+	public static void main(String args[]){
+		
+	
+	
+	
+	}
+}	

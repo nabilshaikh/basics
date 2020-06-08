@@ -1,0 +1,23 @@
+package w3resource.array;
+
+import java.util.Arrays;
+import java.util.HashSet;
+
+public class CommonElementBetn2Arrays14 {
+	
+	// Refer DuplicateInt7 & DuplicateString8
+	public static void main(String[] args) {
+		String[] name1 = {"nabil", "shaikh", "john", "cena", "hello"};
+		String[] name2 = {"world", "selenium", "hello"};
+		HashSet<String> set = new HashSet<String>();
+		
+		for (int i=0; i<name1.length; i++){
+			for(int j=0; j<name2.length; j++){
+				if(name1[i].equals(name2[j])){
+					set.add(name1[i]);
+				}
+			}
+		}
+		System.out.println(set);
+	}
+}

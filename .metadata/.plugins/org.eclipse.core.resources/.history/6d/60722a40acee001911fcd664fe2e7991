@@ -1,0 +1,64 @@
+package w3resources;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayList_Add {
+	
+	//1. adding in list
+	/*
+	public static void main(String[] args) {
+		
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("john");
+		list.add("cena");
+		list.add(1, "nabil");
+		
+		System.out.println(list);
+		
+	} 
+	*/
+	
+	//2. iterate all elements
+	public static void main(String[] args) {
+		
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("one");
+		list.add("two");
+		list.add("three");
+		list.add("four");
+		list.add("five");
+		
+		System.out.println("1. using java 8 with for each loop and lambda expression: "); 
+		list.forEach(show -> {System.out.println(show);} );
+		
+		System.out.println("2. using Iterator: ");
+		Iterator<String> itr1 = list.iterator();
+		while (itr1.hasNext()) {
+			String new_itr = itr1.next();
+			System.out.println(new_itr);			
+		}
+		
+		System.out.println("3. using Iterator and java 8 lambda and forEachRemaining() method");
+		
+		Iterator<String> itr2 = list.iterator();
+		itr2.forEachRemaining(show -> {
+			System.out.println(show);
+		});
+		
+		System.out.println("4. using for each loop");
+		for (String show:list) {
+			System.out.println(show);
+		}
+		
+		System.out.println("5. using for loop with order/index");
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

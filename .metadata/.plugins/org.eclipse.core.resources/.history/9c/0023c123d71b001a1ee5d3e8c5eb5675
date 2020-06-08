@@ -1,0 +1,17 @@
+package string;
+
+public class Striing {
+
+	public static void main(String[] args) {
+		
+			String a = null;
+			System.out.println(a.length());
+			System.out.println("hello");
+		
+		/*catch (Exception e)
+		{
+			System.out.println(e);
+		}*/
+	}
+
+}

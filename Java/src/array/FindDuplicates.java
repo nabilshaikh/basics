@@ -1,0 +1,20 @@
+package array;
+
+import java.util.Arrays;
+
+public class FindDuplicates {
+
+	public static void main(String[] args) {
+		int[] array1 = {1,2,2,3,4,5};
+		int duplicate = array1[0];
+		int[] placeholder = new int[10];
+		for (int i=1; i<array1.length;i++){
+			if(array1[i]==duplicate){
+				placeholder[i] = array1[i];
+				System.out.print(placeholder);
+			}
+		}
+		System.out.print(Arrays.toString(placeholder));
+	}
+
+}

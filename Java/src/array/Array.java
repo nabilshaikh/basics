@@ -1,0 +1,68 @@
+package array;
+
+import java.util.Arrays;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		//sorting array
+		/*
+		int[] sortnum = {5,2,3,1,4};
+		System.out.println(Arrays.toString(sortnum));
+		Arrays.sort(sortnum);
+		System.out.println(Arrays.toString(sortnum));
+		
+		String[] sortstring = {"hello","world","nabil"};
+		System.out.println(Arrays.toString(sortstring));
+		Arrays.sort(sortstring);
+		System.out.println(Arrays.toString(sortstring));
+		*/
+		
+		
+		// adding an array
+		/*
+		int[] my_array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		int sum = 0;
+		int sum1 = 0;
+
+		for (int i : my_array)
+		{
+			sum = sum + i;
+		}
+		System.out.println("The sum is " + sum);
+		
+		// OR
+		
+		for (int i: my_array)
+			 sum1 += i;
+		System.out.println("The sum is " + sum1);
+		
+		*/
+		
+		
+		//average of an array
+		/*
+		int sum = 0;
+		int[] avgarray = {2,4,6};
+		
+		for (int i: avgarray)
+			sum += i;
+		System.out.println("Sum is: " +sum);
+		System.out.println("Average is: " +sum/2);
+		*/
+		
+		
+		//Write a Java program to test if an array contains a specific value
+		
+		
+		
+			
+				 
+		
+		
+		
+		   
+	}
+
+}

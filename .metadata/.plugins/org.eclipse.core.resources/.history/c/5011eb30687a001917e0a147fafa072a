@@ -1,0 +1,15 @@
+package Constructor;
+
+public class B extends A{
+	
+	public B() {
+		
+		System.out.println("Inside child constructor");
+	}
+	
+	public static void main ()
+	{
+		B b = new B();
+	}
+
+}

@@ -1,0 +1,14 @@
+package string;
+
+public class Striing {
+
+	public static void main(String[] args) {
+		try {
+			String a = null;			
+		}
+		catch{ (Exception e)
+			System.out.println(e);
+		}
+	}
+
+}
